@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    gap: 50px;
+    background-color: #f2f4f7;
+}
+
+.leftbox{
+    width: 600px;
+}
+
+.leftbox img{
+      width: 350px;
+      margin-bottom: 10px;
+}
+
+.leftbox p{
+    font-size: 32px;
+    font-family: Helvetica;
+    line-height: 1.2;
+}
+
+.rightbox{
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.inputEmail,  .inputPassword {
+    margin-bottom:10px ;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.inputEmail input, .inputPassword input {
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+
+.inputEmail input:focus, .inputPassword input:focus {
+    outline: none;
+     border: 1px solid #0866ff;
+    border-radius: 5px;
+}
+
+.loginBtn {
+    margin-top:20px ;
+    margin-bottom:20px ;
+    height: 50px;
+    
+}
+
+.loginBtn button {
+    height: 100%;
+    width: 100%;
+    background-color: #0866ff;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.loginBtn button:hover {
+background-color: #0867ffdf;
+}
+
+.rightbox a {
+    display: block;
+    text-align: center;
+    color: #0866ff;
+    font-size: 14px;          /* Facebook uses smaller text */
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.rightbox a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: 25px;
+}
+
+.registerBtn{
+     margin-top:20px ;
+    margin-bottom:20px ;
+    height: 50px;
+    width: 100%;
+}
+
+.registerBtn button {
+    height: 100%;
+    width: 60%;
+    background-color: #42b72a;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;  
+    margin: 0% 20%; 
+}
+
+.registerBtn button:hover {
+background-color: #40ab2b;
+}
+
+.inputPassword   {
+    position: relative;
+}
+
+.inputPassword i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
